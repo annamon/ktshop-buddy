@@ -12,7 +12,7 @@
 KT 공식 홈페이지에서 휴대폰을 구매할 때,
 사용자는 여러 페이지를 오가며 원하는 요금제의 혜택이나 조건을 일일이 비교하며 찾아야 하는 불편함이 있었습니다.
 
-<img src="./for_md_image/shop_before.png" alt="Logo" style="border: 2px solid #000; border-radius: 4px;">
+![KT샵](./for_md_image/shop_before.png)
   
 사용자는 “이 요금제가 나에게 맞는지” 스스로 계산해야 했습니다.
 이 프로젝트는 이러한 불편함을 해결하기 위해 시작되었습니다.
