@@ -1,0 +1,11 @@
+# --- Core packages ---
+streamlit
+pandas
+openai
+
+# --- Azure SDK packages ---
+azure-core
+azure-search-documents
+
+# --- Utility packages ---
+python-dotenv
