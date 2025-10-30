@@ -1,9 +1,11 @@
 # ˖⁺‧₊˚ 🕵🏻 KTShop Buddy ˚₊‧⁺˖
   
-> **Azure OpenAI**, **Azure AI Search** 기반으로 구현된 **KT 요금제 및 단말 추천 웹 서비스**  
-> 🎈[KTShop Buddy 페이지 바로가기](https://ktshop-buddy-web.azurewebsites.net/)
+**Azure OpenAI**, **Azure AI Search** 기반으로 구현된 **KT 요금제 및 단말 추천 웹 서비스**  
+🎈[KTShop Buddy 페이지 바로가기](https://ktshop-buddy-web.azurewebsites.net/)
 
 
+  
+  
 
 ---
 
@@ -14,16 +16,16 @@ KT 공식 홈페이지에서 휴대폰을 구매할 때,
 
 ![KT샵](./for_md_image/shop_before.PNG)
   
-사용자는 “이 요금제가 나에게 맞는지” 스스로 계산해야 했습니다.
+사용자는 “이 요금제가 나에게 맞는지” 스스로 계산해야 했습니다. 알아보기 번거로워 기존 요금제 그대로, 혹은 사이트에서 추천하는 요금제로 구매하는 경우가 많습니다.  
 이 프로젝트는 이러한 불편함을 해결하기 위해 시작되었습니다.
 
 ![어라](./for_md_image/mudo.jpg)
 
----
+
 
 ## 🚀 프로젝트 개요
 
-“AI가 사용자 조건을 이해하고 가장 합리적인 요금제와 단말 조합을 제안한다.”
+> “AI가 사용자 조건을 이해하고 가장 합리적인 요금제와 단말 조합을 제안한다.”
 
 
 **KT Shop Buddy** 는 
@@ -53,7 +55,7 @@ Azure AI Search의 `인덱스 Keyword 검색 기능`을 결합한 **RAG** 구조
 - 각 조합은 KT Shop 바로가기 링크를 통해 즉시 구매 가능  
 
 
----
+
 
 ## 🧠 아키텍처 구조
 
@@ -84,7 +86,7 @@ Azure OpenAI (LLM)
 | **Search Engine** | Azure AI Search |
 | **Data Source** | Azure Blob Storage |
 
----
+
 
 ## 🧰 주요 기능 요약
 
@@ -97,9 +99,9 @@ Azure OpenAI (LLM)
 | KT Shop 바로가기 | prodNo, sntyNo, planId 기반 동적 링크 생성 |
 | LLM 설명 | 각 추천 사유 및 주의사항 자동 생성 |
 
----
 
-## 🖼️ UI 구성 예시
+
+## 🖼️ UI 구성
 
 ```
 📱 KTShop Buddy
@@ -121,7 +123,7 @@ Azure OpenAI (LLM)
 5. 🏆 버디's pick : 요금제+단말 조합 BEST 3
 ```
 
----
+
 
 ## ⚙️ 향후 계획
 
