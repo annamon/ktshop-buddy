@@ -4,6 +4,7 @@
 📱 [KTShop Buddy 페이지 바로가기](https://ktshop-buddy-web.azurewebsites.net/)
 
 <br>
+
 ---
 
 ## 🤔 주제 선정 배경
