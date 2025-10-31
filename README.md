@@ -18,6 +18,7 @@ KT 공식 홈페이지에서 휴대폰을 구매할 때,
 
 ![어라](./for_md_image/mudo.jpg)  
 
+<br>
 
 ---
 ## 🚀 프로젝트 개요
@@ -28,12 +29,14 @@ KT 공식 홈페이지에서 휴대폰을 구매할 때,
 **KT Shop Buddy** 는 
 사용자의 데이터 사용량, 통화량, 선호 브랜드, 예산 등의 입력 조건을 바탕으로  
 가장 적합한 **KT 통신 요금제와 스마트폰 조합**을 추천하는 AI 웹서비스입니다.
+
 KT Shop Buddy를 통해 사용자는 별도의 검색이나 계산 없이 한 화면에서 요금제와 단말을 함께 추천받고, KT Shop 페이지로 이동해 구매까지 완료할 수 있습니다.
 
 
 이 서비스는 Azure OpenAI의 `GPT-4.1 모델`과  
 Azure AI Search의 `인덱스 Keyword 검색 기능`을 결합한 **RAG** 구조로 설계되었습니다.
 
+<br>
 
 ## 🧩 주요 기능
 
@@ -62,8 +65,7 @@ Azure AI Search의 `인덱스 Keyword 검색 기능`을 결합한 **RAG** 구조
   - 월 단말 할부대금의 경우 고객이 선택한 할부 개월 수 기준으로 원리금 균등상환 방식(이자율 연5.9%)으로 계산
 - 각 조합은 KT Shop 바로가기 링크를 통해 즉시 구매 가능  
 
-
-
+<br>
 
 ## 🌐 아키텍처 구조
 
@@ -82,7 +84,7 @@ Azure OpenAI (LLM)
 요금제+단말 조합 Top3 계산 결과 노출
 ```
 
----
+<br>
 
 ## 💻 주요 기술 스택
 
@@ -94,7 +96,7 @@ Azure OpenAI (LLM)
 | **Search Engine** | Azure AI Search |
 | **Data Source** | Azure Blob Storage |
 
-
+<br>
 
 ## ⚙ 주요 기능 요약
 
@@ -107,7 +109,7 @@ Azure OpenAI (LLM)
 | 조합 제시 | 월납부액 기준으로 Top3 조합 계산 |
 | KT Shop 바로가기 | 요금제/단말 정보 기반 URL 생성 |
 
-
+<br>
 
 ## 🖼️ UI 구성 및 화면
 
@@ -135,6 +137,7 @@ Azure OpenAI (LLM)
 ![KT샵버디2](./for_md_image/ktshop_buddy2.PNG)
 ![KT샵버디3](./for_md_image/ktshop_buddy3.PNG)
 
+<br>
 
 ## 🔧 향후 계획
 
@@ -142,6 +145,8 @@ Azure OpenAI (LLM)
 - 공통지원금, 추가지원금 등 단말별/가입유형별 KT 지원금 정책 적용
 - Azure Search 벡터 인덱싱 (Semantic Hybrid Search 적용)  
 - LangGraph 기반 다중 노드 워크플로우 적용
+
+<br>
 
 ---
 
